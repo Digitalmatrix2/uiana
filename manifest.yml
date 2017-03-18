@@ -1,0 +1,12 @@
+applications:
+- path: VaadinStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: PulseMedic.ana
+  name: ui ana
+  host: ui
+  disk_quota: 1024M
+  services:
+  - AI Pulse Medic_
+  - Cloudant NoSQL DB-ok
+  - availability-monitoring-auto
